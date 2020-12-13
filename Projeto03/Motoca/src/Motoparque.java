@@ -15,53 +15,53 @@ class Pessoa {
 }
 
 class Motoca {
-	Pessoa pessoa; //agregacao
+    Pessoa pessoa; //agregacao
     int potencia;
     int tempo;
 
-	public Motoca(int potencia){
-        this.potencia = potencia;
-        this.tempo = 0;
-	}
+    public Motoca(int potencia){
+    	this.potencia = potencia;
+    	this.tempo = 0;
+    }
     
     void comprar(int tempo){
         this.tempo += tempo;
     }
 	
-	boolean embarcar(Pessoa pessoa) {
-		if(this.pessoa == null){
-			this.pessoa = pessoa;
-			return true;
-		}
-		System.out.println("A moto esta lotada");
-		return false;
-	}
+    boolean embarcar(Pessoa pessoa) {
+	if(this.pessoa == null){
+		this.pessoa = pessoa;
+		return true;
+   	}
+	System.out.println("A moto esta lotada");
+	return false;
+    }
 	
-	Pessoa desembarcar() {
-		if(this.pessoa != null){
-			Pessoa pessoa = this.pessoa;
-			this.pessoa = null;
-			return pessoa;
-		}
-		else{
-			System.out.println("A moto esta vazia");
-			return null;
-		}
+    Pessoa desembarcar() {
+	if(this.pessoa != null){
+		Pessoa pessoa = this.pessoa;
+		this.pessoa = null;
+		return pessoa;
 	}
+	else{
+		System.out.println("A moto esta vazia");
+		return null;
+	}
+    }
 
-	void dirigir(int tempo){
-		if(this.pessoa == null)
-			System.out.println("A moto esta vazia");
-		else if(this.pessoa.idade > 10)
-			System.out.println("Já ta muito grandinho pra andar de moto");
+    void dirigir(int tempo){
+	if(this.pessoa == null)
+		System.out.println("A moto esta vazia");
+	else if(this.pessoa.idade > 10)
+		System.out.println("Já ta muito grandinho pra andar de moto");
         else if(this.tempo == 0)
-			System.out.println("Acabou o Tempo");
+		System.out.println("Acabou o Tempo");
         else if(this.tempo < tempo){
-            System.out.println("Andou " + this.tempo + " min e acabou o tempo");
-            this.tempo = 0;
-		}
-		else
-            this.tempo -= tempo;
+            	System.out.println("Andou " + this.tempo + " min e acabou o tempo");
+            	this.tempo = 0;
+	}
+	else
+        	this.tempo -= tempo;
     }
 
 	void buzinar(){
@@ -75,9 +75,9 @@ class Motoca {
 		System.out.println("P" + saida + "m");
     }
     
-    public String toString(){
-        return "potencia: " + this.potencia + ", minutos: " + this.tempo + ", pessoa: " + this.pessoa;
-    }
+    	public String toString(){
+        	return "potencia: " + this.potencia + ", minutos: " + this.tempo + ", pessoa: " + this.pessoa;
+    	}
 }
 
 public class Motoparque{
@@ -86,8 +86,8 @@ public class Motoparque{
 		Motoca motoca  = new Motoca(1);
 		while(true) {
 			String line = scanner.nextLine();
-            String ui[] = line.split(" "); 
-            System.out.println("$" + line);
+            		String ui[] = line.split(" "); 
+            		System.out.println("$" + line);
 			if(ui[0].equals("end")) {
 				break;
 			}
