@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Espiral{
-    String name;
-    double value;
-    int qtd;
+    public String name;
+    public double value;
+    public int qtd;
     
     public Espiral(String name, double value, int qtd){
         this.name = name;
@@ -13,11 +13,13 @@ class Espiral{
     }
     
     public String toString(){
-        return "[" + this.name + " : " + this.qtd + "U : " + this.value + "]";
+        return "[" + this.name + " : " + this.qtd + " : " + this.value + "]";
     }
 
     public void edit(String name, float value, int qtd) {
-    
+        this.name = name;
+        this.value = value;
+        this.qtd = qtd;
     }
 }
 
@@ -50,16 +52,16 @@ class Maquina {
         else System.out.println("Não há troco");
     }
 
-    public void comprar(int indice, int qtd){
+    public void comprar(int index, int qtd){
         for(int i = 0; i < qtd; i++){
-            if(indice >= 0 && indice < espiral.size()){
+            if(index >= 0 && index < espiral.size()){
                 
-                if(espiral.get(indice).value <= this.balance){
+                if(espiral.get(index).value <= this.balance){
                     
-                    if(espiral.get(indice).qtd > 0){
-                        this.balance -= espiral.get(indice).value;
-                        this.gain += espiral.get(indice).value;
-                        espiral.get(indice).qtd --;
+                    if(espiral.get(index).qtd > 0){
+                        this.balance -= espiral.get(index).value;
+                        this.gain += espiral.get(index).value;
+                        espiral.get(index).qtd --;
                     }
                     else {
                         System.out.println("Não há produtos na espiral");
@@ -72,7 +74,7 @@ class Maquina {
                 }
             }
             else {
-                System.out.println("Indice não encontrado");
+                System.out.println("index não encontrado");
                 break;
             }
             
@@ -80,9 +82,9 @@ class Maquina {
         
     }
 
-    public boolean alterarEspiral(int indice, String name, float value, int qtd){
-        if(indice >= 0 && indice < espiral.size()){
-            espiral.get(indice).edit(name, value, qtd);
+    public boolean alterarEspiral(int index, String name, float value, int qtd){
+        if(index >= 0 && index < espiral.size()){
+            espiral.get(index).edit(name, value, qtd);
             return true;
         }
         return false;
@@ -97,7 +99,7 @@ class Maquina {
         String saida = "balance : " + this.balance + "\n";
         int i=0;
         for(Espiral espiral : espiral){
-            saida += i +"- [ " + espiral + " ] \n";
+            saida += i + "[" + espiral + "]\n";
             i++;
         }
         return saida;
