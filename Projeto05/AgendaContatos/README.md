@@ -1,9 +1,9 @@
-01.Fiz o codigo dos Contatos com base nos conceitos vistos em aula e em conteudo online.
+01.O QUE FEZ ? ---> Fiz o codigo da Agenda de Contatos onde é possivel adicionar,remover e ver os numeros na agenda.
 
-02.Fiz sozinho estudando pela apostila e pelo conteudo online.
+02.COMO FEZ ? ---> Fiz estudando pela apostila da caelum e pelo conteudo online fazendo uso de funções ArrayList. 
 
-03.Fiz utilizando os conceitos de array e arraylist e suas operações basicas  percorrer, listar e remover
+03.COM QUEM FEZ ? ---> Individual
 
-04. Aprendi sobre array e arraylist e suas operações basicas e também aprendi um pouco sobre o uso das funções ou operadores CharAt e IndexOf.
+04.APRENDIZADO E DIFICULDADES ---> Aprendi sobre array e arraylist e suas operações basicas e também aprendi um pouco sobre o uso das funções ou operadores CharAt e IndexOf tirando duvidas no discord.
 
-05. Somando os estudos com o tempo fazendo codigo e pausas foram 3 horas aproximadamente.
+05.TEMPO ---> Somando os estudos com o tempo fazendo codigo e pausas foram 3 horas aproximadamente.
