@@ -1,9 +1,9 @@
-1.refiz o codigo da agenda-contato utilizando o que aprendi sobre excessões.
+1.O QUE FEZ ? ---> Refiz o codigo da Agenda-Contato utilizando o que aprendi sobre excessões.
 
-2.fiz sozinho estudando pela video aula no YT.
+2.COMO FEZ ? ---> Apenas refiz meu codigo fazendo o uso de excessões como: throw new IllegalArgumentException(); e pegando eles no final do codigo com Try e Catch.
 
-3.fiz utilizando os conceitos de excessões vistos na aula.
+3.COM QUEM FEZ ? ---> Individual
 
-4.dei inicio ao estudo do uso de excessões.
+4.APRENDIZADO E DIFICULDADES ---> Dei inicio ao meu estudo sobre excessões. 
 
-5.cerca de 30 minutos.
+5.TEMPO ---> cerca de 30 minutos.
