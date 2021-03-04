@@ -186,7 +186,8 @@ public class Search{
             if(ui[0].equals("end")){
                 break;
                  
-            }else if(ui[0].equals("add")){
+            }
+            else if(ui[0].equals("add")){
 
                 agenda.initContato(ui[1]);
                 
@@ -195,19 +196,24 @@ public class Search{
                     agenda.addContato(ui[1], partes[0], partes[1]);
                 }
             
-            }else if(ui[0].equals("rmFone")){
+            }
+            else if(ui[0].equals("rmFone")){
                 agenda.rmFoneindice(ui[1], Integer.parseInt(ui[2]));
             
-            }else if(ui[0].equals("agenda")){
+            }
+            else if(ui[0].equals("agenda")){
                 agenda.show();
 
-            }else if(ui[0].equals("rmContato")){
+            }
+            else if(ui[0].equals("rmContato")){
                 agenda.rmContato(ui[1]);
                 
-            }else if(ui[0].equals("search")){ 
+            }
+            else if(ui[0].equals("search")){ 
                 agenda.search(ui[1]);
                 
-            }else{
+            }
+            else{
                 System.out.println("fail: comando inválido");
             }
         }
