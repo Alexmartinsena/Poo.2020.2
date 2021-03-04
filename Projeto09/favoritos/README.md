@@ -1,9 +1,9 @@
-1.Fiz o codigo da agenda-favoritos utilizando os conceitos vistos em aula e na apostila.
+1.O QUE FEZ ? ---> Fiz o codigo da agenda-favoritos onde é possivel adicionar,remover,gerenciar,buscar e favoritar contatos.
 
-2. fiz sozinho estudando pela apostila e conteudo online.
+2.COMO FEZ ? ---> Utilizando TreeMap,ArrayList,Array e funções como add(),rm(),get(),set(),entre outras.
 
-3. fiz utilizando os conceitos de mapas e de arraylist vistos em aulas.
+3.COM QUEM FEZ ? ---> Individual.
 
-4. continuei meu aprendizado sobre mapas e tentei fazer algumas coisas diferentes do meu padrão no codigo para via de teste.
+4.APRENDIZADO E DIFICULDADES ---> Continuei meu aprendizado sobre Mapas e nas praticas de conteudos passados esse codigo pra mim foi um tanto quanto demorado, tive duvidas quando estava tentando deixar tudo funcionando junto, debuguei varias vezes mas deu pra tirar as duvidas no discord. 
 
-5. somando o tempo de estudo o codigo demorou umas 4-5 horas. 
+5.TEMPO ---> Somando o tempo de estudo o codigo demorou umas 5 horas. 
