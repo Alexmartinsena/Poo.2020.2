@@ -43,7 +43,8 @@ class Contact{
         if(Phones.validar(number)){
             Phoness.add(new Phones(id, number));
             return true;
-        }else{
+        }
+        else{
             System.out.println("fail: Phones invalido");
         }
         return false;
@@ -84,7 +85,8 @@ class Contact{
         for(int i = 0; i < Phoness.size(); i++){
             Phones Phones = Phoness.get(i);
             out += "[" + i + ":"+ Phones + "]";
-        }return out;
+        }
+        return out;
     }
 }
 
@@ -212,7 +214,8 @@ public class Favorites{
             
             if(ui[0].equals("end")){
                 break;
-            }else if(ui[0].equals("add")){
+            }
+            else if(ui[0].equals("add")){
                 Schedule.initContact(ui[1]);
                 
                 for(int i = 2; i < ui.length; i++){
@@ -220,28 +223,36 @@ public class Favorites{
                     Schedule.addContact(ui[1], partes[0], partes[1]);
                 }
             
-            }else if(ui[0].equals("Schedule")){ 
+            }
+            else if(ui[0].equals("Schedule")){ 
                 Schedule.show();
                 
-            }else if(ui[0].equals("rmContact")){ 
+            }
+            else if(ui[0].equals("rmContact")){ 
                 Schedule.rmContact(ui[1]);
                 
-            }else if(ui[0].equals("rmPhones")){ 
+            }
+            else if(ui[0].equals("rmPhones")){ 
                 Schedule.rmPhonesindice(ui[1], Integer.parseInt(ui[2]));
                 
-            }else if(ui[0].equals("search")){ 
+            }
+            else if(ui[0].equals("search")){ 
                 Schedule.search(ui[1]);
                 
-            }else if(ui[0].equals("fav")){ 
+            }
+            else if(ui[0].equals("fav")){ 
                 Schedule.favoritar(ui[1]);
                 
-            }else if(ui[0].equals("favorited")){ 
+            }
+            else if(ui[0].equals("favorited")){ 
                 Schedule.favorited();
                 
-            }else if(ui[0].equals("unfav")){ 
+            }
+            else if(ui[0].equals("unfav")){ 
                 Schedule.desfavoritar(ui[1]);
                 
-            }else{
+            }
+            else{
                 System.out.println("fail: comando inválido");
             }           
         }
