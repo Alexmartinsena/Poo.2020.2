@@ -6,4 +6,4 @@
 
 04.APRENDIZADO E DIFICULDADES ---> Aprendi sobre como utilizar os Modificadores de Acesso e Encapsulamento corretamente(estava tendo um pouco de dificuldade pra entender mas consegui tirar minhas duvidas).
 
-05. Somando com o tempo de estudo foram aproximadamente 2-3 horas.
+05.TEMPO ---> Somando com o tempo de estudo foram aproximadamente 2-3 horas.
