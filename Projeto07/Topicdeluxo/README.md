@@ -1,9 +1,9 @@
-1. Fiz o codigo da Topic de luxo com base nos conceitos estudados em aula e na apostila.
+1.O QUE FEZ ? ---> Fiz o codigo da Topic de Luxo onde passageiros podem embarcar e desembarcar.
 
-2. Fiz sozinho estudando pela apostila,aula e conteudo online.
+2.COMO FEZ ? ---> Utilizando os conceitos de ArrayList, fazendo uso de funções do ArrayList e logica para a manipulação de dados em determinadas posições dentro do Array.
 
-3. Fiz utilizando os conceitos de Agregação com arraylist estudados e também fiz utilizando biblioteca para deixar mais organizado. 
+3.COM QUEM FEZ ? ---> Individual
 
-4. continuei o aprendizado sobre os conceitos e usos de Arraylist.
+4.APRENDIZADO E DIFICULDADES ---> continuei o aprendizado sobre os conceitos e usos de Arraylist e manipulação de posições dentro do msm.
 
-5. levei aproximadamente 3 horas para terminar o codigo. 
+5.TEMPO ---> levei aproximadamente 3-4 horas para terminar o codigo. 
