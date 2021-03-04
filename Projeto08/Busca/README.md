@@ -1,9 +1,9 @@
-1. Fiz o codigo da Agenda-Busca baseado nos conceitos vistos em aula e na apostila.
+1.O QUE FEZ ? ---> Fiz o codigo da Agenda-Busca com varios contatos onde é possivel gerenciar,remover,adicionar e buscar por numeros.
 
-2. fiz sozinho estudando pelas aulas,apostila e conteudo online.
+2.COMO FEZ ? ---> Ultilizando TreeMap,ArrayList e Array e fazendo uso de metodos do ArrayList como .add(),remove(),get(),set() e entre outros.
 
-3.Fiz utilizando os conceitos de mapa e arraylist vistos em aulas.
+3.COM QUEM FEZ ? ---> Individual
 
-4. começei o aprendizado de mapas e pude praticar arraylist de novo e fiz algumas coisas diferentes no codigo so pra testar mudanças.
+4.APRENDIZADO E DIFICULDADES ---> Começei o aprendizado de mapas e pude praticar arraylist de novo e tentei coisas novas como string builder.
 
-5. somando com os estudos necessarios o codigo levou umas 5 horas. 
+5.TEMPO ---> Somando com os estudos necessarios o codigo levou umas 5 horas. 
