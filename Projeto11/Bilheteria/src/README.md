@@ -1,9 +1,9 @@
-1.Fiz o codigo da bilheteria baseado nos conceitos vistos nas aulas.
+1.O QUE FEZ ? --> Fiz o codigo da bilheteria baseado nos conceitos vistos nas aulas.
 
-2.fiz sozinho estudando pelo conteudo das aulas,apostila e outros conteudos online.
+2.COMO FEZ ? ---> Fiz utilizando os conceitos de Excessões aprendidos como throw new IllegalArgumentException,Utilizando TreeMap para o RepPessoa,RepSetores e RepEventos conforme o uml e também usando funções Get(),Show(),add() entre outras. 
 
-3.fiz utilizando os conceitos de excessões, mapas e arraylist vistos em aula e apostila.
+3.COM QUEM FEZ ? ---> Individual
 
-4.dei continuidade ao estudo do uso de excessões e mapas.
+4.APRENDIZADO E DIFICULDADES ---> Dei continuidade ao meu aprendizado de excessões e também de mapas.
 
-5.Juntando com os estudos foram cerca de umas 3 horas. 
+5.TEMPO ---> Juntando com os estudos foram cerca de umas 3 horas. 
