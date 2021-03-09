@@ -1,4 +1,4 @@
-1.O QUE FEZ ? ---> Fiz o codigo do Twitter onde os usuario podem: Adicionar outros usuarios, dar follow ou unfollow em outros usuarios,escrever mensagens para suas timelines,dark like em mensagens de outros usuarios e exibir os likes da mesma.
+1.O QUE FEZ ? ---> Fiz o codigo do Twitter onde os usuario podem: Adicionar outros usuarios, dar follow ou unfollow em outros usuarios,escrever mensagens para suas timelines,dar like em mensagens de outros usuarios e exibir os likes da mesma.
 
 2.COMO FEZ ? ---> Ao todo foram 4 classes(Tweet,User,Controller e Twitter).
 
