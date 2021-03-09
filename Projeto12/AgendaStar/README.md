@@ -8,7 +8,7 @@ Já o AgendaPlus contém um TreeMap<String, ContatoPlus> favoritos que salva os 
 3.COM QUEM FEZ ---> Individual.
 
 
-4.APRENDIZADO E DIFICULDADES ---> Aprendi bastante sobre herança e tivi algumas dificuldades interpretando o UML e a Main mas no fim consegue tirar algumas duvidas via discord.
+4.APRENDIZADO E DIFICULDADES ---> Aprendi bastante sobre herança e tive algumas dificuldades interpretando o UML e a Main mas no fim consegui tirar algumas duvidas via discord.
 
 
 5.TEMPO ---> Umas 2-3 horas.
