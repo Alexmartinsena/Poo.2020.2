@@ -61,7 +61,7 @@ class ContaPoupança extends Conta{
         
     }
 
-    public void atualizacaoMensal() {
+    public void attMensal() {
         this.saldo *= 1.01;
     }
 }
