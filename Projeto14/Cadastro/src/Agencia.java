@@ -31,7 +31,7 @@ class Conta {
         Other.depositar(valor);
     }
 
-    public void atualizacaoMensal(){
+    public void attMensal(){
         
     }
 
@@ -49,7 +49,7 @@ class ContaCorrente extends Conta {
         
     }
 
-    public void atualizacaoMensal() {
+    public void attMensal() {
         saldo -= 20;
     }
 }
@@ -147,7 +147,7 @@ public class Cadastro {
                 }
                 else if(ui[0].equals("update")){
                     for(Conta contas : agencia.contas)
-                        contas.atualizacaoMensal();
+                        contas.attMensal();
                 }
                 else    
                     System.out.println("fail: comando invalido");
