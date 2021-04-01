@@ -105,6 +105,7 @@ class Agencia {
 
     public String toString(){
         StringBuilder out = new StringBuilder();
+        
         for (Conta conta : contas)
             out.append(conta + "\n");
         return out.toString();
@@ -125,37 +126,47 @@ public class Cadastro {
                 if(ui[0].equals("end")){
                     break;
                 }
+                
                 else if(ui[0].equals("show")){
                     System.out.println(agencia);
                 }
+                
                 else if(ui[0].equals("addcli")){
                     agencia.adicionarCliente(ui[1]);
                 }
+                
                 else if(ui[0].equals("sacar")){
                     agencia.contas.get(Integer.parseInt(ui[1])).sacar(Integer.parseInt(ui[2]));
                 }
+                
                 else if(ui[0].equals("depositar")){ 
                     agencia.contas.get(Integer.parseInt(ui[1])).depositar(Integer.parseInt(ui[2]));
                 }
+                
                 else if(ui[0].equals("transferir")){
                     Conta Other = agencia.contas.get(Integer.parseInt(ui[2]));
                     if(agencia.contas.get(Integer.parseInt(ui[2])) == null){
                         System.out.println("fail: conta não encontrada");
                     }
+                    
                     else 
                         agencia.contas.get(Integer.parseInt(ui[1])).transferir(Other, Integer.parseInt(ui[3]));
                 }
+                
                 else if(ui[0].equals("update")){
                     for(Conta contas : agencia.contas)
                         contas.attMensal();
                 }
+                
                 else    
                     System.out.println("fail: comando invalido");
             }
+            
             catch(RuntimeException e){
                 System.out.println(e.getMessage());
             }
         }
+        
         scanner.close();
     }
 }   
