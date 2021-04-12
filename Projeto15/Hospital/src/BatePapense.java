@@ -13,12 +13,12 @@ class Mensagem{
 }
 
 abstract class BatePapense {
-	ArrayList<Mensagem> inbox;
+	ArrayList<Mensagem> direct;
 	abstract String getId();
 	
-	List<Mensagem> getInbox(){
-		List<Mensagem> saida = new ArrayList<Mensagem>(this.inbox);
-		this.inbox.clear();
+	List<Mensagem> getDirect(){ //Mensagens Diretas
+		List<Mensagem> saida = new ArrayList<Mensagem>(this.direct);
+		this.direct.clear();
 		
 		return saida;
 	}
