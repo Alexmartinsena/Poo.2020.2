@@ -43,7 +43,7 @@ public class Paciente implements IPaciente{
 
 	public String toString(){
 		String ListMedicos = new String();
-		for(IMedico medico: getMedicos()) ListMedicos += medico.getId()+" ";
+		for(IMedico medico: getMedicos()) ListMedicos += medico.getId() + " ";
 		return "Pacientes: " + String.format(getId() + ":" + getdiag()) + " Medicos: [ " + ListMedicos + "] \n";
 	};
 }
